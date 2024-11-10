@@ -72,7 +72,7 @@
 .layout {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .layout__section {
@@ -140,13 +140,13 @@
     height: 100%; */
     object-fit: cover;
     width: 737px;
-    height: 448px;
+    height: 400px;
 }
 
 .section-mkt3 {
     display: grid;
     grid-column: 1/7;
-    grid-row: 8/9;
+    grid-row: 8/10;
     display: flex;
     flex-flow: row;
 }
@@ -159,10 +159,10 @@
     align-items: flex-start;
     /* gap: 16px; */
 
-    padding: 94px 80px 94px 96px;
+    padding: 75px 80px 48px 96px;
     background: #54AA35;
     width: 737px;
-    height: 448px;
+    height: 400px;
 }
 
 .custom-footer {
